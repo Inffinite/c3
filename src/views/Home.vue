@@ -1,16 +1,22 @@
 <template>
   <div class="home">
-    weeeh
+    <Navbar />
+    <Hello />
   </div>
 </template>
 
 <script>
+import Navbar from "../components/Navbar.vue";
+import Hello from "../components/Hello.vue";
 
 export default {
-  name: 'Home',
-}
+  components: {
+    Navbar,
+    Hello,
+  },
+};
 </script>
 
 <style scoped>
-@import '../styles/Home.css';
+@import "../styles/Home.css";
 </style>

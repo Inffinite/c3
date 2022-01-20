@@ -1,0 +1,85 @@
+@import './fonts.css';
+
+@media only screen {
+    .navbar {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .c-logo {
+        height: 40px;
+        width: auto;
+    }
+
+    .n-actions {
+        display: none;
+    }
+
+    .n-menu-icon {
+        fill: #118F50;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .navbar {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 30px 60px 30px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .n-actions {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .n-menu-icon {
+        display: none;
+    }
+
+    .contact-btn {
+        position: relative;
+        border-radius: 50px;
+        color: white;
+        background-color: #118F50;
+        background-image: linear-gradient(270deg, #0A6336 -33.32%, rgba(10, 99, 54, 0) 76.16%);
+        position: relative;
+        padding: 12px 25px 12px 25px;
+        cursor: pointer;
+        font-family: 'sfb';
+        font-size: 14px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .contact-btn:hover {
+        background-color: #118F50;
+        background-image: none;
+    }
+
+    .flat-btn {
+        font-family: 'sfb';
+        font-size: 16px;
+        color: #989898;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .flat-btn:hover {
+        color: #118F50;
+    }
+}

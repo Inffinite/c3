@@ -1,0 +1,88 @@
+@import './fonts.css';
+
+@media only screen {
+    
+}
+
+@media only screen and (min-width: 64.063em) {
+    .hello {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 150px 0px 30px 60px;
+    }
+
+    .h-tag {
+        text-align: start;
+        height: 16px;
+        color: #989898;
+        font-family: 'sfb';
+    }
+
+    .h-first {
+        text-align: start;
+        margin-top: 12px;
+        font-size: 40px;
+        font-family: 'sfr';
+        color: #303030;
+    }
+
+    .h-second {
+        text-align: start;
+        margin-top: 4px;
+        font-size: 60px;
+        font-family: 'sfb';
+        color: #303030;
+    }
+
+    .h-subtitle {
+        text-align: start;
+        margin-top: 20px;
+        font-family: 'sfr';
+        font-size: 18px;
+        line-height: 30px;
+        color: #303030;
+    }
+
+    .h-actions {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 40px;
+        gap: 50px;
+    }
+
+    .findout {
+        border-radius: 50px;
+        color: white;
+        background-color: #118F50;
+        background-image: linear-gradient(270deg, #0A6336 -33.32%, rgba(10, 99, 54, 0) 76.16%);
+        padding: 14px 25px 14px 25px;
+        cursor: pointer;
+        font-family: 'sfb';
+        font-size: 14px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .h-pdf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #118F50;
+        font-family: 'sfb';
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .pdf-icon {
+        stroke: #118F50;
+        height: 20px;
+    }
+
+    .h-image {
+        height: 500px;
+        width: auto;
+    }
+
+}
