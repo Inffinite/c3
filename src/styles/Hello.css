@@ -9,14 +9,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 150px 0px 30px 60px;
+        margin: 150px 60px 30px 60px;
     }
 
     .h-tag {
         text-align: start;
         height: 16px;
         color: #989898;
-        font-family: 'sfb';
+        font-family: 'sfr';
     }
 
     .h-first {
@@ -81,7 +81,7 @@
     }
 
     .h-image {
-        height: 500px;
+        height: 450px;
         width: auto;
     }
 

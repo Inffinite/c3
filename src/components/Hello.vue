@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="h-pic">
-      <img class="h-image" src="../assets/leaf.png" alt="">
+      <img class="h-image" src="../assets/combo.png" alt="">
     </div>
   </div>
 </template>
