@@ -2,7 +2,7 @@
 
 @media only screen {
     .navbar {
-        background-color: white;
+        /* background-color: white; */
         position: fixed;
         top: 0;
         left: 0;
@@ -11,6 +11,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        backdrop-filter: blur( 60.0px );
+        -webkit-backdrop-filter: blur( 6.0px );
     }
 
     .c-logo {

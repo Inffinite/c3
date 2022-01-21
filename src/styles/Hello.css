@@ -18,12 +18,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #303030;
+        color: #118F50;
         font-family: 'sfr';
         border-radius: 50px;
         padding: 8px 20px 8px 20px;
         width: fit-content;
-        background-color: #3030300c;
+        background-color: rgba(17, 143, 80, 0.075);;
     }
 
     .h-first {
@@ -104,7 +104,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 150px 60px 30px 60px;
+        margin: 80px 60px 30px 60px;
     }
 
     .container {
@@ -114,13 +114,13 @@
     .h-tag {
         text-align: start;
         height: 16px;
-        color: #989898;
+        color: #118F50;
         font-family: 'sfr';
     }
 
     .h-first {
         text-align: start;
-        margin-top: 12px;
+        margin-top: 20px;
         font-size: 40px;
         font-family: 'sfr';
         color: #303030;
@@ -136,11 +136,11 @@
 
     .h-subtitle {
         text-align: start;
-        width: 500px;
+        width: 450px;
         padding: 0px;
         margin: 10px 0px 0px 0px;
         font-family: 'sfr';
-        font-size: 18px;
+        font-size: 20px;
         line-height: 30px;
         color: #303030;
     }
