@@ -36,7 +36,7 @@
 
     .h-second {
         text-align: center;
-        margin: 20px 20px 25px 20px;
+        margin: 4px 20px 15px 20px;
         font-size: 45px;
         font-family: 'sfb';
         color: #303030;
@@ -44,7 +44,7 @@
 
     .h-subtitle {
         text-align: center;
-        margin: 20px;
+        margin: 20px 20px 20px 20px;
         font-family: 'sfr';
         font-size: 20px;
         line-height: 32px;
@@ -65,7 +65,7 @@
         padding: 14px 45px 14px 45px;
         cursor: pointer;
         font-family: 'sfb';
-        font-size: 18px;
+        font-size: 16px;
         transition: 0.5s ease-in-out;
     }
 
@@ -77,7 +77,7 @@
         color: #118F50;
         margin-top: 30px;
         font-family: 'sfb';
-        font-size: 18px;
+        font-size: 16px;
         cursor: pointer;
     }
 

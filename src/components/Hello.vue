@@ -14,7 +14,7 @@
 
       <div class="h-actions">
         <div class="container">
-          <div class="findout">Find out more</div>
+          <div class="findout">Find out More</div>
         </div>
         <div class="container">
           <div class="h-pdf">
