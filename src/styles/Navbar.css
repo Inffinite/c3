@@ -3,16 +3,18 @@
 @media only screen {
     .navbar {
         /* background-color: white; */
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         right: 0;
+        z-index: 100;
         padding: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        backdrop-filter: blur( 60.0px );
-        -webkit-backdrop-filter: blur( 6.0px );
+        background-color: rgba(255, 255, 255, 0.678);
+        backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+        -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
     }
 
     .c-logo {
@@ -32,15 +34,17 @@
 
 @media only screen and (min-width: 64.063em) {
     .navbar {
-        background-color: white;
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         right: 0;
-        padding: 30px 60px 30px 60px;
+        padding: 20px 60px 20px 60px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: rgba(255, 255, 255, 0.678);
+        backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+        -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
     }
 
     .n-actions {

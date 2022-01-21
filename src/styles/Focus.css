@@ -1,0 +1,80 @@
+@import './fonts.css';
+
+@media only screen {
+    .focus {
+        margin: 60px 60px 300px 60px;
+    }
+
+    .focus-subtitle {
+        text-align: start;
+        font-size: 18px;
+        color: #989898;
+        font-family: 'sfb';
+    }
+
+    .thin {
+        font-family: 'sfr';
+        font-weight: thin;
+    }
+
+    .focus-title {
+        margin-top: 10px;
+        color: #303030;
+        font-family: 'sfb';
+        font-size: 40px;
+        text-align: start;
+    }
+
+    .f-list {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .f-item {
+        border-radius: 12px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .f-item:hover {
+        cursor: pointer;
+        background-color: #118F50;
+    }
+
+    .f-item:hover .f-item-title {
+        color: white;
+    }
+
+    .f-item:hover .f-item-subtitle {
+        color: white;
+    }
+
+    .f-item-title {
+        text-align: start;
+        padding: 15px;
+        font-family: 'sfb';
+        color: #118F50;
+        font-size: 16px;
+    }
+
+    .f-item-subtitle {
+        font-family: 'sfr';
+        padding: 0px 20px 0px 20px;
+        text-align: start;
+        color: #989898;
+        margin-bottom: 20px;
+    }
+
+    .f-item-img {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {}

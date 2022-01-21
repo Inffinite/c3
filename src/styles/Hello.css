@@ -14,7 +14,7 @@
 
     .h-tag {
         text-align: center;
-        height: 16px;
+        height: 14px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -104,7 +104,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 80px 60px 30px 60px;
+        margin: 10px 60px 20px 60px;
     }
 
     .container {
