@@ -68,7 +68,7 @@
         padding: 0px 15px 0px 15px;
         text-align: start;
         transition: 0.5s ease-in-out;
-        color: #989898;
+        color: #303030b7;
         margin-bottom: 20px;
     }
 
@@ -178,7 +178,7 @@
         text-align: start;
         transition: 0.5s ease-in-out;
         /* color: #989898; */
-        color: #303030;
+        color: #303030b7;
         margin-bottom: 20px;
     }
 
