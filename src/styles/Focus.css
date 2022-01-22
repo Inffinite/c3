@@ -36,7 +36,7 @@
 
     .f-item {
         border-radius: 12px;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 4px;
         transition: 0.5s ease-in-out;
     }
 
@@ -56,9 +56,10 @@
 
     .f-item-title {
         text-align: start;
-        padding: 15px 15px 15px 15px;
+        padding: 15px 15px 8px 15px;
         font-family: 'sfb';
-        color: #303030;
+        color: #118F50;
+        transition: 0.5s ease-in-out;
         font-size: 16px;
     }
 
@@ -66,6 +67,7 @@
         font-family: 'sfr';
         padding: 0px 15px 0px 15px;
         text-align: start;
+        transition: 0.5s ease-in-out;
         color: #989898;
         margin-bottom: 20px;
     }
@@ -163,9 +165,10 @@
 
     .f-item-title {
         text-align: start;
-        padding: 15px 15px 15px 15px;
+        padding: 15px 15px 8px 15px;
         font-family: 'sfb';
-        color: #303030;
+        color: #118F50;
+        transition: 0.5s ease-in-out;
         font-size: 16px;
     }
 
@@ -173,7 +176,9 @@
         font-family: 'sfr';
         padding: 0px 15px 0px 15px;
         text-align: start;
-        color: #989898;
+        transition: 0.5s ease-in-out;
+        /* color: #989898; */
+        color: #303030;
         margin-bottom: 20px;
     }
 
