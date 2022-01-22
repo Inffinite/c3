@@ -2,6 +2,113 @@
 
 @media only screen {
     .focus {
+        margin: 50px 20px 300px 20px;
+    }
+
+    .focus-subtitle {
+        text-align: center;
+        font-size: 14px;
+        color: #989898;
+        font-family: 'sfr';
+    }
+
+    .thin {
+        font-family: 'sfr';
+        font-weight: thin;
+    }
+
+    .focus-title {
+        margin-top: 10px;
+        color: #303030;
+        font-family: 'sfb';
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .f-list {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .f-item {
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .f-item:hover {
+        cursor: pointer;
+        background-color: #118F50;
+        box-shadow: rgba(255, 255, 255, 0.041) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.089) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .f-item:hover .f-item-title {
+        color: white;
+    }
+
+    .f-item:hover .f-item-subtitle {
+        color: white;
+    }
+
+    .f-item-title {
+        text-align: start;
+        padding: 15px 15px 15px 15px;
+        font-family: 'sfb';
+        color: #303030;
+        font-size: 16px;
+    }
+
+    .f-item-subtitle {
+        font-family: 'sfr';
+        padding: 0px 15px 0px 15px;
+        text-align: start;
+        color: #989898;
+        margin-bottom: 20px;
+    }
+
+    .f-item-img {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+    }
+
+    .f-show-more {
+        border-radius: 50px;
+        color: white;
+        background-color: #118F50;
+        background-image: linear-gradient(270deg, #0A6336 -33.32%, rgba(10, 99, 54, 0) 76.16%);
+        position: relative;
+        padding: 12px 35px 12px 35px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-family: 'sfb';
+        font-size: 16px;
+        transition: 0.5s ease-in-out;
+        margin-top: 40px;
+    }
+
+    .f-show-more:hover {
+        background-color: #118F50;
+        background-image: none;
+    }
+
+    .contain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .focus {
         margin: 60px 60px 300px 60px;
     }
 
@@ -9,7 +116,7 @@
         text-align: start;
         font-size: 18px;
         color: #989898;
-        font-family: 'sfb';
+        font-family: 'sfr';
     }
 
     .thin {
@@ -28,20 +135,22 @@
     .f-list {
         margin-top: 40px;
         display: grid;
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         justify-content: space-between;
+        gap: 30px;
         align-items: center;
     }
 
     .f-item {
         border-radius: 12px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         transition: 0.5s ease-in-out;
     }
 
     .f-item:hover {
         cursor: pointer;
         background-color: #118F50;
+        box-shadow: rgba(255, 255, 255, 0.041) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.089) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     }
 
     .f-item:hover .f-item-title {
@@ -54,15 +163,15 @@
 
     .f-item-title {
         text-align: start;
-        padding: 15px;
+        padding: 15px 15px 15px 15px;
         font-family: 'sfb';
-        color: #118F50;
+        color: #303030;
         font-size: 16px;
     }
 
     .f-item-subtitle {
         font-family: 'sfr';
-        padding: 0px 20px 0px 20px;
+        padding: 0px 15px 0px 15px;
         text-align: start;
         color: #989898;
         margin-bottom: 20px;
@@ -75,6 +184,32 @@
         height: 200px;
         width: 100%;
     }
-}
 
-@media only screen and (min-width: 64.063em) {}
+    .f-show-more {
+        border-radius: 50px;
+        color: white;
+        background-color: #118F50;
+        background-image: linear-gradient(270deg, #0A6336 -33.32%, rgba(10, 99, 54, 0) 76.16%);
+        position: relative;
+        padding: 12px 25px 12px 25px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-family: 'sfb';
+        font-size: 14px;
+        transition: 0.5s ease-in-out;
+        margin-top: 60px;
+    }
+
+    .f-show-more:hover {
+        background-color: #118F50;
+        background-image: none;
+    }
+
+    .contain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}

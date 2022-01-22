@@ -3,7 +3,7 @@
 @media only screen {
     .hello {
         display: block;
-        margin-top: 100px;
+        margin-top: 20px;
     }
 
     .container {
@@ -75,7 +75,7 @@
         align-items: center;
         gap: 10px;
         color: #118F50;
-        margin-top: 30px;
+        margin-top: 40px;
         font-family: 'sfb';
         font-size: 16px;
         cursor: pointer;
@@ -90,7 +90,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 60px;
     }
 
     .h-image {
