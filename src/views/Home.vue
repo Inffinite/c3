@@ -3,6 +3,7 @@
     <Navbar />
     <Hello />
     <Focus/>
+    <WhatWeDo/>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Navbar from "../components/Navbar.vue";
 import Hello from "../components/Hello.vue";
 import Focus from '../components/Focus.vue'
+import WhatWeDo from '../components/WhatWeDo.vue'
 
 export default {
   components: {
     Navbar,
     Hello,
-    Focus
+    Focus,
+    WhatWeDo
   },
 };
 </script>

@@ -1,0 +1,264 @@
+@import './fonts.css';
+
+@media only screen {
+    .whatwedo {
+        margin: 00px 20px 60px 20px;
+    }
+
+    .ws-subtitle {
+        text-align: center;
+        font-size: 20px;
+        color: #989898;
+        font-family: 'sfr';
+    }
+
+    .ws-thin {
+        font-family: 'sfr';
+        font-weight: thin;
+    }
+
+    .ws-title {
+        margin-top: 10px;
+        color: #303030;
+        font-family: 'sfb';
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .w-project-wr {
+        margin-top: 100px;
+        display: block;
+    }
+
+    .w-project-wr-second {
+        margin-top: 80px;
+        display: block;
+    }
+
+    .w-project-wr-note {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+    }
+
+    .w-project-wr-advisory {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+
+    .w-img-wr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .w-project-laptop {
+        transform: translate(5px, 5px);
+        height: 200px;
+    }
+
+    .w-project {
+        height: 200px;
+    }
+
+    .w-project-head {
+        height: 200px;
+    }
+
+    .w-project-note {
+        height: 150px;
+    }
+
+    .w-d-title {
+        font-family: 'sfr';
+        font-size: 26px;
+        text-align: center;
+        /* color: #989898; */
+        color: #303030cb;
+        margin-top: 25px;
+    }
+
+    .w-d-subtitle {
+        margin-top: 15px;
+        font-family: 'sfr';
+        text-align: center;
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+        color: #303030b7;
+        line-height: 30px;
+    }
+
+    .manage {
+        font-family: 'sfb';
+        font-size: 30px;
+        color: #303030;
+        /* color: #118F50; */
+    }
+
+    .w-talk {
+        border-radius: 50px;
+        color: white;
+        background-color: #118F50;
+        background-image: linear-gradient(270deg, #0A6336 -33.32%, rgba(10, 99, 54, 0) 76.16%);
+        position: relative;
+        padding: 12px 25px 12px 25px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-family: 'sfb';
+        font-size: 16px;
+        transition: 0.5s ease-in-out;
+        margin-top: 30px;
+    }
+
+    .w-talk:hover {
+        background-color: #118F50;
+        background-image: none;
+    }
+
+    .w-talk-wr {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+    }
+}
+
+
+@media only screen and (min-width: 64.063em) {
+    .whatwedo {
+        margin: 80px 60px 60px 60px;
+    }
+
+    .w-img-wr {
+        display: block;
+    }
+
+    .ws-subtitle {
+        text-align: center;
+        font-size: 20px;
+        color: #989898;
+        font-family: 'sfr';
+    }
+
+    .ws-thin {
+        font-family: 'sfr';
+        font-weight: thin;
+    }
+
+    .ws-title {
+        margin-top: 10px;
+        color: #303030;
+        font-family: 'sfb';
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .w-project-laptop {
+        height: 400px;
+        transform: none;
+    }
+
+    .w-project-wr {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .w-project-wr-second {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .w-project-wr-note {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+    }
+
+    .w-project-wr-advisory {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+
+    .w-project {
+        height: 400px;
+    }
+
+    .w-project-head {
+        height: 400px;
+    }
+
+    .w-project-note {
+        height: 250px;
+    }
+
+    .w-d-title {
+        font-family: 'sfr';
+        font-size: 26px;
+        text-align: start;
+        /* color: #989898; */
+        color: #303030cb;
+        margin-top: 0px;
+    }
+
+    .w-d-subtitle {
+        margin-top: 20px;
+        font-family: 'sfr';
+        padding: 0px;
+        text-align: start;
+        font-size: 24px;
+        width: 500px;
+        color: #303030b7;
+        line-height: 35px;
+    }
+
+    .manage {
+        font-family: 'sfb';
+        font-size: 45px;
+        color: #303030;
+        /* color: #118F50; */
+    }
+
+    .w-talk {
+        border-radius: 50px;
+        color: white;
+        background-color: #118F50;
+        background-image: linear-gradient(270deg, #0A6336 -33.32%, rgba(10, 99, 54, 0) 76.16%);
+        position: relative;
+        padding: 12px 25px 12px 25px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-family: 'sfb';
+        font-size: 16px;
+        transition: 0.5s ease-in-out;
+        margin-top: 30px;
+    }
+
+    .w-talk:hover {
+        background-color: #118F50;
+        background-image: none;
+    }
+
+    .w-talk-wr {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+    }
+}
