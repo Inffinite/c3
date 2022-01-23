@@ -1,0 +1,27 @@
+@import './fonts.css';
+
+@media only screen {
+    .footer {
+        margin: 120px 0px 0px 0px;
+        background-color: #118F50;
+        height: 300px;
+        padding: 60px;
+    }
+
+    .ft-content {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .ft-title {
+        text-align: start;
+        color: white;
+        font-family: 'sfb';
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+
+}

@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="n-brand">
-      <img class="c-logo" src="../assets/c.png" alt="c" />
+      <img class="c-logo" src="../assets/mylogo.png" alt="c" />
     </div>
 
     <svg
