@@ -4,7 +4,8 @@
     <Hello />
     <Focus/>
     <WhatWeDo/>
-    <Footer/>
+    <ContactMenu/>
+    <!-- <Footer/> -->
   </div>
 </template>
 
@@ -13,7 +14,8 @@ import Navbar from "../components/Navbar.vue";
 import Hello from "../components/Hello.vue";
 import Focus from '../components/Focus.vue'
 import WhatWeDo from '../components/WhatWeDo.vue'
-import Footer from '../components/Footer.vue'
+import ContactMenu from '../components/ContactMenu'
+// import Footer from '../components/Footer.vue'
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     Hello,
     Focus,
     WhatWeDo,
-    Footer
+    ContactMenu
+    // Footer
   },
 };
 </script>
