@@ -1,0 +1,19 @@
+@import './fonts.css';
+
+@media only screen {
+    .contact-menu {
+        position: fixed;
+        right: 75px;
+        top: 100px;
+        background-color: #118F50;
+        border-radius: 6px;
+        padding: 20px;
+        width: 300px;
+        z-index: 600;
+        box-shadow: rgba(255, 255, 255, 0.041) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.089) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+
+}
