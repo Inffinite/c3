@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div @click="helloClicked" class="hello">
     <div class="h-details">
       <div class="container">
         <div class="h-tag">Sustainability</div>
@@ -8,8 +8,8 @@
       <div class="h-second">Think Sustainably</div>
 
       <div class="h-subtitle">
-        We identify, plan, manage and execute projects 
-        that are aligned with <span class="green">Sustainable Development Goals.</span>
+        We identify, plan, manage and execute projects that are aligned with
+        <span class="green">Sustainable Development Goals.</span>
       </div>
 
       <div class="h-actions">
@@ -43,7 +43,24 @@
 </template>
 
 <script>
-export default {};
+import store from "../store";
+
+export default {
+  methods: {
+    async helloClicked() {
+      const status = await store.getters.getContactsMenu;
+
+      switch (status) {
+        case true:
+          await store.dispatch("changeContactState", false);
+          break;
+
+        default:
+          break;
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>

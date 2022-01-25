@@ -2,7 +2,7 @@
 
 @media only screen {
     .focus {
-        margin: 50px 20px 80px 20px;
+        margin: 50px 25px 80px 25px;
     }
 
     .focus-subtitle {
@@ -38,6 +38,7 @@
         border-radius: 12px;
         box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 4px;
         transition: 0.5s ease-in-out;
+        margin-bottom: 20px;
     }
 
     .f-item:hover {
@@ -115,7 +116,7 @@
     }
 
     .focus-subtitle {
-        text-align: start;
+        text-align: center;
         font-size: 18px;
         color: #989898;
         font-family: 'sfr';
@@ -131,7 +132,8 @@
         color: #303030;
         font-family: 'sfb';
         font-size: 40px;
-        text-align: start;
+        text-align: center;
+        margin-bottom: 60px;
     }
 
     .f-list {

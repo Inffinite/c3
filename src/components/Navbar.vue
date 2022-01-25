@@ -21,14 +21,32 @@
       <div class="flat-btn">Our Approach</div>
 
       <div class="flat-btn">What we do</div>
-      <div class="contact-btn">Contact us</div>
+      <div @click="contactsMenuStatus" class="contact-btn">Contact us</div>
     </div>
   </div>
 </template>
 
 <script>
-
+import store from "../store";
 export default {
+  methods: {
+    async contactsMenuStatus() {
+      const status = await store.getters.getContactsMenu;
+
+      switch (status) {
+        case true:
+          await store.dispatch("changeContactState", false);
+          break;
+
+        case false:
+          await store.dispatch("changeContactState", true);
+          break;
+
+        default:
+          break;
+      }
+    },
+  },
 };
 </script>
 

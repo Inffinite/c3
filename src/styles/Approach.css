@@ -1,0 +1,127 @@
+@import './fonts.css';
+
+@media only screen {
+    .approach {
+        margin: 80px 20px 80px 20px;
+    }
+
+    .aa-subtitle {
+        text-align: center;
+        font-size: 14px;
+        color: #989898;
+        font-family: 'sfr';
+    }
+
+    .aa-thin {
+        font-family: 'sfr';
+        font-weight: thin;
+    }
+
+    .aa-title {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        color: #303030;
+        font-family: 'sfb';
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .approach-list {
+        display: block;
+    }
+
+    .list-cell {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .icon-wr {
+        background-color: #118f5021;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        width: fit-content;
+    }
+
+    .strategy-icon {
+        height: 24px;
+        fill: #118F50;
+    }
+
+    .ll-title {
+        text-align: center;
+        font-family: 'sfb';
+        /* color: #303030; */
+        color: #118F50;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .ll-subtitle {
+        text-align: center;
+        font-family: 'sfr';
+        font-size: 18px;
+        color: #303030b7;
+        margin: 10px 15px 10px 15px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .approach {
+        margin: 80px 60px 130px 60px;
+    }
+
+    .approach-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        margin-bottom: 0px;
+    }
+
+    .list-cell {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start; margin-bottom: 0px;
+        gap: 40px;
+    }
+
+    .icon-wr {
+        background-color: #118f5021;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+    }
+
+    .strategy-icon {
+        height: 20px;
+        fill: #118F50;
+    }
+
+    .ll-title {
+        margin-top: 0px;
+        text-align: start;
+        font-family: 'sfb';
+        /* color: #303030; */
+        color: #118F50;
+        font-size: 22px;
+    }
+
+    .ll-subtitle {
+        text-align: start;
+        font-family: 'sfr';
+        font-size: 18px;
+        color: #303030b7;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        width: 350px;
+        line-height: 26px;
+    }
+}
