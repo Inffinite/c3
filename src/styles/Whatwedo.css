@@ -210,7 +210,7 @@
 
     .w-d-title {
         font-family: 'sfr';
-        font-size: 26px;
+        font-size: 20px;
         text-align: start;
         /* color: #989898; */
         color: #303030cb;
@@ -222,7 +222,7 @@
         font-family: 'sfr';
         padding: 0px;
         text-align: start;
-        font-size: 24px;
+        font-size: 22px;
         width: 500px;
         color: #303030b7;
         line-height: 35px;

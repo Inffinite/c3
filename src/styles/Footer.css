@@ -20,6 +20,11 @@
         font-family: 'sfb';
         font-size: 30px;
     }
+
+    .ft-logo {
+        height: 200px;
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 64.063em) {

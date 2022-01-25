@@ -5,7 +5,7 @@
         You can help
         share the future
       </div> -->
-
+    <img src="../assets/mylogo.png" alt="" class="ft-logo">
       
     </div>
   </div>
