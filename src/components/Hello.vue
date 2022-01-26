@@ -2,7 +2,7 @@
   <div @click="helloClicked" class="hello">
     <div class="h-details">
       <div class="container">
-        <div class="h-tag">Sustainability</div>
+        <div class="h-tag">CORPORATE CITIZENSHIP CONNECT</div>
       </div>
       <div class="h-first">Act Responsibly</div>
       <div class="h-second">Think Sustainably</div>
@@ -14,10 +14,8 @@
 
       <div class="h-actions">
         <div class="container">
-          <div class="findout">Find out More</div>
-        </div>
-        <div class="container">
-          <div class="h-pdf">
+          <a href="/files/c3.pdf" download>
+            <div class="findout">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="pdf-icon"
@@ -33,7 +31,13 @@
 
             Download PDF
           </div>
+          </a>
         </div>
+        <!-- <div class="container">
+          <div class="h-pdf">
+            Businesses cannot thrive in societies that fail
+          </div>
+        </div> -->
       </div>
     </div>
     <div class="h-pic">

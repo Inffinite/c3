@@ -1,0 +1,13 @@
+@import './fonts.css';
+
+@media only screen {
+    .mobilemenu {
+        position: fixed;
+        right: 20px;
+        left: 20px;
+        top: 50px;
+        /* background-color: #118F50; */
+        height: 100px;
+        z-index: 900;
+    }
+}

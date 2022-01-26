@@ -2,7 +2,32 @@
 
 @media only screen {
     .whatwedo {
-        margin: 50px 20px 60px 20px;
+        margin: 50px 20px 100px 20px;
+    }
+
+    .w-footer {
+        margin-top: 100px;
+        display: block;
+        gap: 100px;
+    }
+
+    .wf-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wf-details {
+        margin-top: 40px;
+        font-family: 'sfb';
+        color: #118F50;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .wf-img {
+        height: 300px;
+        width: auto;
     }
 
     .ws-subtitle {
@@ -134,6 +159,22 @@
 @media only screen and (min-width: 64.063em) {
     .whatwedo {
         margin: 100px 60px 60px 60px;
+    }
+
+    .wf-details {
+        margin-top: 0px;
+    }
+
+    .w-footer {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wf-img {
+        height: 300px;
+        width: auto;
     }
 
     .w-img-wr {

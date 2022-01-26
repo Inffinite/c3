@@ -1,6 +1,8 @@
 <template>
   <div class="approach">
-    <div class="aa-subtitle">Building the future</div>
+    <div class="aa-subtitle">
+      ~ Businesses cannot thrive in societies that fail ~
+    </div>
     <div class="aa-title"><span class="aa-thin">Our</span> Approach</div>
 
     <div class="approach-list">

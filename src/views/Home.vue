@@ -6,6 +6,7 @@
     <Approach/>
     <WhatWeDo/>
     <ContactMenu/>
+    <MobileMenu/>
     <!-- <Footer/> -->
   </div>
 </template>
@@ -17,6 +18,7 @@ import Focus from '../components/Focus.vue'
 import WhatWeDo from '../components/WhatWeDo.vue'
 import ContactMenu from '../components/ContactMenu'
 import Approach from '../components/Approach'
+import MobileMenu from '../components/MobileMenu'
 // import Footer from '../components/Footer.vue'
 
 export default {
@@ -26,7 +28,8 @@ export default {
     Focus,
     Approach,
     WhatWeDo,
-    ContactMenu
+    ContactMenu,
+    MobileMenu
     // Footer
   },
 };

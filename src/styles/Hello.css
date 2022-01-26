@@ -6,6 +6,10 @@
         margin-top: 20px;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     .container {
         display: flex;
         justify-content: center;
@@ -67,6 +71,10 @@
         font-family: 'sfb';
         font-size: 16px;
         transition: 0.5s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 
     .h-pdf {
@@ -114,6 +122,7 @@
     .h-tag {
         text-align: start;
         height: 16px;
+        font-size: 16px;
         color: #118F50;
         font-family: 'sfr';
     }
@@ -167,6 +176,10 @@
         font-family: 'sfb';
         font-size: 14px;
         transition: 0.5s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 
     .h-pdf {
@@ -175,14 +188,14 @@
         align-items: center;
         gap: 10px;
         color: #118F50;
-        font-family: 'sfb';
+        font-family: 'sfr';
         font-size: 16px;
         cursor: pointer;
         margin-top: 0px;
     }
 
     .pdf-icon {
-        stroke: #118F50;
+        stroke: white;
         height: 20px;
     }
 

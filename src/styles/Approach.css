@@ -5,9 +5,26 @@
         margin: 80px 20px 80px 20px;
     }
 
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 #118f5069;
+        }
+    
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px #118f5000;
+        }
+    
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 #118f5000;
+        }
+    }
+
     .aa-subtitle {
         text-align: center;
-        font-size: 14px;
+        font-size: 18px;
         color: #989898;
         font-family: 'sfr';
     }
@@ -44,6 +61,7 @@
         align-items: center;
         padding: 15px;
         width: fit-content;
+        animation: pulse 2s infinite;
     }
 
     .strategy-icon {
@@ -91,7 +109,7 @@
     }
 
     .icon-wr {
-        background-color: #118f5021;
+        background-color: #118f5013;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -110,18 +128,18 @@
         font-family: 'sfb';
         /* color: #303030; */
         color: #118F50;
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .ll-subtitle {
         text-align: start;
         font-family: 'sfr';
-        font-size: 18px;
+        font-size: 20px;
         color: #303030b7;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 10px;
         width: 350px;
-        line-height: 26px;
+        line-height: 30px;
     }
 }

@@ -49,9 +49,6 @@
         </div>
       </div>
     </div>
-    <div class="contain">
-      <button class="f-show-more">Show More</button>
-    </div>
   </div>
 </template>
 
