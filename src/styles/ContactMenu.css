@@ -56,6 +56,7 @@
         font-size: 14px;
         background-color: #117442;
         cursor: pointer;
+        display: none;
     }
 }
 
@@ -102,5 +103,6 @@
         font-size: 14px;
         background-color: #117442;
         cursor: pointer;
+        display: flex;
     }
 }
