@@ -12,6 +12,20 @@
         box-shadow: rgba(77, 75, 75, 0.041) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.089) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     }
 
+    .cm-close {
+        background-color: white;
+        padding: 8px 0px 8px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #118F50;
+        font-size: 14px;
+        border-radius: 6px;
+        font-family: 'sfb';
+        cursor: pointer;
+    }
+
     .contact-tile {
         display: flex;
         justify-content: space-between;

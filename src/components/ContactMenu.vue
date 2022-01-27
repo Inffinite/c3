@@ -2,7 +2,7 @@
   <div v-if="contactsMenu" class="contact-menu">
     <div class="contact-tile">
       <div class="cm-number">
-        +254 757 690 940
+        +254 731 233 220
       </div>
       <div @click="copyContact(1)" class="cm-copy">
         {{ copyOne }}
@@ -13,10 +13,18 @@
 
     <div class="contact-tile">
       <div class="cm-number">
-        +254 757 690 940
+        +254 791 389 786
       </div>
       <div @click="copyContact(2)" class="cm-copy">
         {{ copyTwo }}
+      </div>
+    </div>
+
+    <div class="cm-divider"></div>
+
+    <div @click="closeMenu" class="contact-tile">
+      <div class="cm-close">
+       Close
       </div>
     </div>
   </div>
@@ -40,11 +48,15 @@ export default {
   },
 
   methods: {
+    closeMenu(){
+      store.dispatch("changeContactState", false);
+    },
+
     async copyContact(pos){
       switch (pos) {
         case 1:
           this.copyOne = 'Copied!'
-          await navigator.clipboard.writeText('0757690940')
+          await navigator.clipboard.writeText('0731233220')
           setTimeout(() => {
             this.copyOne = 'Copy'
           }, 2000);
@@ -52,7 +64,7 @@ export default {
 
         case 2:
           this.copyTwo = 'Copied!'
-          await navigator.clipboard.writeText('0757690940')
+          await navigator.clipboard.writeText('0791389786')
           setTimeout(() => {
             this.copyTwo = 'Copy'
           }, 2000);
