@@ -1,7 +1,7 @@
 export default {
     state: {
-        dashboardPage: false,
-        projectsPage: true
+        dashboardPage: true,
+        projectsPage: false,
     },
 
     getters: {

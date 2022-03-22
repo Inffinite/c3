@@ -23,6 +23,7 @@
       >Our Approach</div>
 
       <div class="flat-btn">What we do</div> -->
+      <div class="register-btn">Fund a project</div>
       <div @click="contactsMenuStatus" class="contact-btn">Contact us</div>
     </div>
   </div>

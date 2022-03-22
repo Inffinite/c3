@@ -2,7 +2,45 @@
 @import './colors.css';
 
 @media only screen {
+    .projects {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background-color: #f7f7f7;
+    }
 
+    .p-content {
+        margin: 0px 50px 0px 50px;
+    }
+
+    .p-last {
+        margin-top: 60px;
+        font-size: 18px;
+        color: var(--text-faded);
+        font-family: 'sfr';
+    }
+
+    .p-title {
+        margin-top: 20px;
+        font-size: 60px;
+        color: var(--dark-text);
+        font-family: 'sfb';
+    }
+
+    .p-subtitle {
+        margin-top: 30px;
+        font-size: 22px;
+        color: var(--dark-text);
+        font-family: 'sfr';
+    }
+
+    span {
+        color: var(--green);
+    }
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {

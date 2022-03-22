@@ -2,7 +2,7 @@
 
 @media only screen {
     .approach {
-        margin: 80px 20px 80px 20px;
+        margin: 70px 20px 80px 20px;
     }
 
     @keyframes pulse {
@@ -36,7 +36,7 @@
 
     .aa-title {
         margin-top: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
         color: #303030;
         font-family: 'sfb';
         font-size: 35px;
