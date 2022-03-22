@@ -5,6 +5,12 @@
         margin: 50px 25px 0px 25px;
     }
 
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .focus-subtitle {
         text-align: center;
         font-size: 14px;
@@ -36,7 +42,7 @@
 
     .f-item {
         border-radius: 12px;
-        box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 4px;
+        box-shadow: rgba(0, 0, 0, 0.041) 0px 1px 4px;
         transition: 0.5s ease-in-out;
         margin-bottom: 20px;
     }
@@ -107,6 +113,22 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+
+    .more-btn {
+        margin-top: 50px;
+        padding: 10px 25px 10px 25px;
+        color: #303030;
+        border: 2px solid #303030;
+        font-family: 'sfr';
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    }
+
+    .more-btn:hover {
+        background-color: #303030;
+        color: white;
     }
 }
 

@@ -49,6 +49,10 @@
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="more-btn">More</div>
+    </div>
   </div>
 </template>
 

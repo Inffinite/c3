@@ -16,6 +16,12 @@
         align-items: center;
     }
 
+    .container-left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
     .h-tag {
         text-align: center;
         height: 14px;
