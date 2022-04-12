@@ -1,7 +1,7 @@
 <template>
   <div @click="helloClicked" class="hello">
     <div class="h-details">
-      <div class="container-left">
+      <div class="h-tag-wr">
         <div class="h-tag">CORPORATE CITIZENSHIP CONNECT</div>
       </div>
       <div class="h-first">Act Responsibly</div>

@@ -22,6 +22,12 @@
         align-items: center;
     }
 
+    .h-tag-wr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .h-tag {
         text-align: center;
         height: 14px;
@@ -123,6 +129,12 @@
 
     .container {
         display: block;
+    }
+
+    .h-tag-wr {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .h-tag {

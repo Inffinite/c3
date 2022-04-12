@@ -1,5 +1,22 @@
 <template>
   <div class="projects">
+    <AddProject v-if="addprojects"/>
+    <div class="p-control-wr">
+      <div class="p-control">
+        <div @click="back" class="p-back">
+          <svg xmlns="http://www.w3.org/2000/svg" class="p-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Back
+        </div>
+        <div @click="openAddProjects" class="p-add-project">
+          <svg xmlns="http://www.w3.org/2000/svg" class="p-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+          </svg>
+          Add Project
+        </div>
+      </div>
+    </div>
     <div class="p-content">
       <div class="container">
         <div class="p-last">Last updated 2 days ago</div>
@@ -11,7 +28,7 @@
         <div class="p-subtitle">Past projects we have worked on</div>
       </div>
 
-      <div style="margin-top: 80px; margin-bottom: 80px;"> 
+      <div style="margin-top: 80px; margin-bottom: 120px;"> 
         <div class="f-list">
           <div v-for="(project, i) in projects" :key="i" class="f-item">
             <img class="f-item-img" :src="project.imageUrl" alt="" />
@@ -27,6 +44,9 @@
 </template>
 
 <script>
+import store from '../store'
+import AddProject from "./widgets/AddProject.vue"
+
 export default {
   data() {
     return {
@@ -54,6 +74,30 @@ export default {
       ],
     };
   },
+
+  computed: {
+    addprojects: () => {
+      return store.getters.getAddProjectsPage
+    }
+  },
+
+  components: {
+    AddProject
+  },
+
+  methods: {
+    back(){
+      store.dispatch("changeProjectsPageState", false)
+    },
+
+    openAddProjects(){
+      store.dispatch('changeAddProjectState', true)
+    },
+
+    closeAddProjects(){
+      store.dispatch('changeAddProjectState', false)
+    },
+  }
 };
 </script>
 

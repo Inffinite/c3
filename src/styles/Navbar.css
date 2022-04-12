@@ -52,7 +52,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
     }
 
     .n-menu-icon {
@@ -71,18 +71,20 @@
         font-family: 'sfb';
         font-size: 14px;
         transition: 0.5s ease-in-out;
+        margin-left: 20px;
     }
 
     .register-btn {
         position: relative;
         border-radius: 4px;
         color: var(--green);
-        border: 2px solid var(--green);
+        /* border: 2px solid var(--green); */
+        border: none;
         position: relative;
         padding: 11px 25px 11px 25px;
         cursor: pointer;
         font-family: 'sfb';
-        font-size: 14px;
+        font-size: 18px;
         transition: 0.5s ease-in-out;
     }
 
