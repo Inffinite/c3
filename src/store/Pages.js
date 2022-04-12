@@ -2,11 +2,16 @@ export default {
     state: {
         dashboardPage: true,
         projectsPage: false,
+        addprojectPage: false
     },
 
     getters: {
         getDashboardState(state) {
             return state.dashboardPage;
+        },
+
+        getAddProjectsPage(state){
+            return state.addprojectPage
         },
 
         getProjectsPageState(state) {
@@ -17,6 +22,10 @@ export default {
     mutations: {
         SET_DASHBOARD_PAGE_STATE(state, dashboardstate) {
             state.dashboardPage = dashboardstate
+        },
+
+        SET_ADD_PROJECTS_PAGE_STATE(state, addprojectstate) {
+            state.addprojectPage = addprojectstate
         },
 
         SET_PROJECTS_PAGE_STATE(state, projectstate) {
@@ -42,6 +51,10 @@ export default {
                 default:
                     break;
             }
+        },
+
+        changeAddProjectState({ commit }, state){
+            commit('SET_ADD_PROJECTS_PAGE_STATE', state)
         },
 
         changeProjectsPageState({ commit }, state) {
